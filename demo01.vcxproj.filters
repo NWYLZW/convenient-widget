@@ -23,31 +23,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="demo01.qrc">
+    <QtRcc Include="src\demo01.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="demo01.ui">
+    <QtUic Include="src\demo01.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="demo01.h">
+    <QtMoc Include="src\demo01.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="demo01.cpp">
+    <ClCompile Include="src\demo01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ResourceCompile Include="$pro_name$.rc">
-    </ResourceCompile>
-    <None Include="$pro_name$.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="$pro_name$.def">
-      <Filter>Resource Files</Filter>
-    </None>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\tools\effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
